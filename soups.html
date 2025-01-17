@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SOUPS | Flavors of Turkish Cuisine</title>
+<link rel="icon" type="image/png" href="images/coffee.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<meta name="description" content="Website of Turkish Cuisine">
+<meta name="keywords" content="Turkish, Cuisine, Turkey,Türkiye, Food, Michelin-starred Turkish chefs, Restaurants, Istanbul, Recepies">
+<meta name="author" content="Pelin Serbet">
+<style>
+body {
+	margin: 0;
+	}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+    overflow: hidden;
+    background-color: #213555;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a, .dropbtn {
+    display: block;
+    color: #D8C4B6;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+ul.topnav li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: #3E5879;
+    color:#F5EFE7 ;
+}
+
+ul.topnav li a.active {
+background-color: #2E5077;
+color: #D39D55;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #213555;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #D8C4B6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #D39D55;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+    iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+    video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+    ul.topnav {width:100%;}
+    ul.topnav li {float: none;}
+    ul.topnav li a {text-align:center;}
+    ul.topnav li.dropdown div.dropdown-content {width:100%;}
+    ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    div.turkishcuisinelinks {float:none;margin:auto;width:100%;text-align:center;}
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+header, footer {
+    padding: 5px;
+    color:#D8C4B6 ;
+    background-color: #3E5879;
+    clear: left;
+    text-align: center;
+}
+
+article {
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+}
+
+div.turkishcuisinelinks {
+	float:left;
+	margin:10px;
+}
+
+ul.verticallist {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+ul.verticallist li {
+	display:block;
+	background-color:#3E5879;
+	margin:5px;
+}
+
+ul.verticallist li a {
+	text-decoration:none;
+	color:#D8C4B6;
+	font-family:impact;
+	font-size:20px;
+	border:5px solid #213555;
+	display:block;
+}
+
+ul.verticallist li a:hover {
+	background-color:#213555;
+	color:#F5EFE7;
+	border:5px solid #3484e0;
+	display:block;
+}
+
+.photo-row {
+            display: grid; /* Grid aktif */
+            grid-template-columns: repeat(5, 1fr); /* 5 sütun */
+            gap: 10px; /* Fotoğraflar arasında boşluk */
+            
+        }
+        .photo-row img {
+            width: 100%; /* Hücreyi doldur */
+            height: auto; /* Oran korunsun */
+            border: 1px solid #ccc; /* Fotoğraflara çerçeve */
+        }
+
+ h2,h3,h4{
+    color:#213555 ;
+   
+   
+}
+</style>
+</head>
+<body>
+<ul class="topnav">
+  <li><a href="default.html">Home</a></li>
+  <li><a href="history.html">History</a></li>
+  <li class="dropdown">
+    <a href="turkishcuisine.html" class="dropbtn active">Flavors of Turkish Cuisine &#9662;</a>
+    <div class="dropdown-content">
+      <a href="soups.html" class="active">Soups</a><br>
+      <a href="OliveOilDishes.html" >Olive Oil Dishes</a><br>
+      <a href="maindishes.html">Main Dishes</a><br>
+      <a href="kebabs.html">Kebabs & Meat Dishes</a><br>
+      <a href="pastries.html">Pastries</a><br>
+      <a href="desserts.html">Desserts</a><br>
+      <a href="beverages.html">Beverages</a><br>
+    </div>
+  </li>
+ 
+  <li><a href="michelin_starred_restaurants.html">Michelin Starred Restaurants</a></li>
+  <li><a href="award_winning_chefs.html">Award Winning Chefs</a></li>
+  <li><a href="special_features.html">Special Features</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="container">
+<header>
+   <h1>SOUPS</h1>
+</header>
+<article>
+    <h2>Tasty Traditional Turkish Soups</h2>
+
+  <img src="images/turkishsoups.jpg" width="30%" style="float:right;margin:5px;">
+
+  <p>As the cold winds blow and the snow starts to settle, few dishes are more comforting than a hearty bowl of soup. Autumn and winter are traditionally soup seasons, but soup isn’t just seen as a cold-weather dish or appetiser in Türkiye. Soups have been served for centuries and play an important role in Turkish cuisine year-round. Here’s a look at a few of the most popular Turkish soups ideal for a theme night or to enjoy at a local restaurant or lokanta.</p>
+  <h2>The history of Turkish soups</h2> 
+  <p>Soup is a satisfying dish enjoyed by all ages and social classes in Türkiye. Turkish soup, or çorba as it is known locally, appears on almost every traditional menu, and there’s a seemingly endless range of vegetable and meat-based varieties, the recipes lovingly developed and handed down through generations.</p>
+  <p>Many of the most popular Turkish soups date back to Ottoman times. During this period, soup became the go-to meal for those on low incomes and equally the prelude to the main for sultans. Off-cuts of meat, leftovers and homegrown produce were readily available and easy to combine into a tasty and filling soup, so it became a staple at most family tables. There are many local folklore references to soup, so much so that people developed phrases and idioms surrounding the dish that became used widely in everyday conversation. Turks generally believe a bowl of soup aids digestion and ‘softens’ the belly in readiness for any food to come, so there are even some fine regional breakfast and even fancy wedding varieties.</p>
+
+
+  <h2>Popular varieties of Turkish soups</h2>  
+  <p>Most traditional soups in Türkiye are based on the ingredients and spices available on the local markets, so some tend to be seasonal or regional.</p>
+  <ul style = "list-style-type:disc; color: #213555;" > <b> Most Popular Turkish Soups</b>
+  <li>Tarhana Soup </li>
+  <li>Lentil Soup </li>
+  <li>Spicy Lentil / Beautiful Bride Soup</li>
+  <li>Highland Soup</li>
+  <li>Tripe Soup</li>
+  <li>Chicken and Vermicelli Soup</li>
+</ul>
+  <div class="photo-row">
+    <img src="images/turkish-lentil-soup.jpg.webp" alt="Lentil Soup">
+    <img src="images/bridesoup.jpeg" alt="Spicy Lentil / Beautiful Bride Soup">
+    <img src="images/HighlandSoup.jpeg" alt="Highland Soup">
+    <img src="images/tripesoup.jpeg" alt="Tripe Soup">
+    <img src="images/traditional-Turkish-chicken-soup.jpg.webp" alt="Chicken and Vermicelli Soup">
+</div>
+
+ <br>
+<h2 style="text-align: center; ">Tarhana Soup</h2>
+<p>As is the case in most countries, there are a couple of go-to soups that every kid grows up on then reaches for as an adult, when they’re feeling run down or fancy a bowl of something that reminds them of home. Tarhana is one such soup in Turkiye.</p>
+
+
+  
+ 
+  <p>Tarhana is a traditional Anatolian soup packed full of vitamins and nutrients. It’s made from a mix of herbs, spices, vegetables and yoghurt that’s dried, mixed, and then crushed into a powder. You often see local homemakers sun-drying the ingredients during the late summer months, when they’re at their best, then making the powder and storing it safely away for future use. This way of prepping food for the store cupboard is practical and typically Anatolian, although the base spices and vegetables vary from region to region and chef to chef.</p>
+  <p>Tarhana soup is normally plant-based and mild as it’s often given to babies as a first food or to the sick as it’s easy on the stomach. Adults tend to spice it up on serving with red pepper flakes or extra herbs at the table. If you would like to try tarhana, you can buy bags of locally produced dried tarhana from village shops and local markets throughout Türkiye, or we can supply some with your provisions, it only takes around 10 minutes to reheat and serve.</p>
+  <img src="images/tarhanasoup.jpg" width="30%" style="float:right;margin:5px;">
+  <h3>Tarhana Soup Recipe</h3>
+
+ <h4>Ingredients</h4>
+ <ul style = "list-style-type: disc;" >
+  
+  <li>1 cup of powdered tarhana</li>
+  <li>7.5 cups hot broth or water</li>
+  <li> 2 tablespoons of butter</li>
+  <li>1 teaspoon tomato paste </li>
+  <li>1 teaspoon of salt</li>
+  <li> 1 teaspoon of black pepper</li>
+  <li>1 teaspoon of paprika</li>
+  <li> 1 teaspoon of mint</li>
+  <li>2 cloves of garlic</li>
+</ul>
+<h4>Method</h4>
+  <ol  type = "1" >
+    
+        <li>Mix 1 cup of powder tarhana with 1.5 cups of warm broth (or water) and let it soften.</li>
+        <li>Heat 2 tablespoons of butter in a deep saucepan. Add 2 cloves of crushed garlic and 1 teaspoon of tomato paste and fry for 2-3 minutes.</li>
+        <li>Add 1 teaspoon of salt, pepper, paprika and 1 teaspoon of mint into the butter and mix.</li>
+        <li>Add the tarhana you soaked in to butter which you fried with tomato paste, garlic and spices.</li>
+        <li>Add the remaining 6 cups of hot water (or broth) and mix it constantly with a whisk to make the soup thicken.</li>
+        <li>Serve the boiling soup hot without waiting. Enjoy your meal.</li>
+    </ol>
+
+
+  
+  </article>
+ 
+
+<footer>Copyright &copy; Pelin Serbet</footer>
+
+</div>
+
+</body>
+</html>

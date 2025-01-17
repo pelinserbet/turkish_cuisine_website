@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pastries | Flavors of Turkish Cuisine</title>
+    <link rel="icon" type="image/png" href="images/coffee.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Website of Turkish Cuisine">
+    <meta name="keywords"
+        content="Turkish, Cuisine, Türkiye, Turkey, Food, Michelin-starred Turkish chefs, Restaurants, Istanbul, Recepies">
+    <meta name="author" content="Pelin Serbet">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #213555;
+        }
+
+        ul.topnav li {
+            float: left;
+        }
+
+        ul.topnav li a,
+        .dropbtn {
+            display: block;
+            color: #D8C4B6;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+
+        ul.topnav li a:hover:not(.active),
+        .dropdown:hover .dropbtn {
+            background-color: #3E5879;
+            color: #F5EFE7;
+        }
+
+        ul.topnav li a.active {
+            background-color: #2E5077;
+            color: #D39D55;
+        }
+
+        li.dropdown {
+            display: block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #213555;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #D8C4B6;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #D39D55;
+            color: black;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 100%;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            iframe {
+                width: 100%;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            video {
+                width: 100%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            ul.topnav {
+                width: 100%;
+            }
+
+            ul.topnav li {
+                float: none;
+            }
+
+            ul.topnav li a {
+                text-align: center;
+            }
+
+            ul.topnav li.dropdown div.dropdown-content {
+                width: 100%;
+            }
+
+            ul.topnav li.dropdown div.dropdown-content a {
+                text-align: center;
+            }
+        }
+
+        div.container {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        header,
+        footer {
+            padding: 5px;
+            color: #D8C4B6;
+            background-color: #3E5879;
+            clear: left;
+            text-align: center;
+        }
+
+        article {
+            margin: 0;
+            padding: 5px;
+            overflow: hidden;
+        }
+
+        div#textwrap {
+            float: left;
+            margin: 5px;
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #213555;
+
+
+        }
+
+        .photo-row {
+            display: grid;
+            /* Grid aktif */
+            grid-template-columns: repeat(5, 1fr);
+            /* 5 sütun */
+            gap: 10px;
+            /* Fotoğraflar arasında boşluk */
+
+        }
+
+        .photo-row img {
+            width: 100%;
+            /* Hücreyi doldur */
+            height: auto;
+            /* Oran korunsun */
+            border: 1px solid #ccc;
+            /* Fotoğraflara çerçeve */
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="topnav">
+        <li><a class="active" href="default.html">Home</a></li>
+        <li><a href="history.html">History</a></li>
+        <li class="dropdown">
+            <a href="turkishcuisine.html" class="dropbtn">Flavors of Turkish Cuisine &#9662;</a>
+            <div class="dropdown-content">
+                <a href="soups.html">Soups</a><br>
+                <a href="OliveOilDishes.html">Olive Oil Dishes</a><br>
+                <a href="maindishes.html">Main Dishes</a><br>
+                <a href="kebabs.html">Kebabs & Meat Dishes</a><br>
+                <a href="pastries.html" class="active">Pastries</a><br>
+                <a href="desserts.html">Desserts</a><br>
+                <a href="beverages.html">Beverages</a><br>
+            </div>
+        </li>
+        <li><a href="michelin_starred_restaurants.html">Michelin Starred Restaurants</a></li>
+        <li><a href="award_winning_chefs.html">Award Winning Chefs</a></li>
+        <li><a href="special_features.html">Special Features</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="container"></div>
+    <header>
+        <h1>Pastries</h1>
+    </header>
+
+    <article>
+        <h2>Turkish Cuisine Pastries</h2>
+
+
+        <h2>Börek</h2>
+        <p>Börek is a baked dish consisting of a savory or sweet filling wrapped in yufka - thinly stretched sheets of
+            dough made with flour, water, and salt. Heartier than phyllo, but thinner than a tortilla, hand-made yufka
+            is typically brushed with butter before baking.</p>
+        <p>Although many countries have their own versions of this satisfying dish, it was probably invented during the
+            Ottoman Empire in the Anatolian Provinces, an area that nowadays belongs to Türkiye. Some sources suggest
+            that börek might be even older, a descendant of the Eastern Roman (Byzantine) Anatolian dish known as en
+            tyritas plakountas, consisting of layered dough filled with cheese, its recipe dating back to 160 BC. </p>
+        <ul style="list-style-type:disc; color: #213555;"> <b> Börek Varieties</b>
+            <li>Su Böreği (Water Börek, made with thin layers of dough and cheese or meat)</li>
+            <li> Rolled Börek (with fillings like minced meat, cheese, or potatoes)</li>
+            <li>Fried Meat Pastry (or Raw Börek, though it refers to the cooking method, not being raw)</li>
+            <li> Pastrami and Cheese Börek</li>
+            <li> Rose-Shaped Börek(shaped like a rose)</li>
+        </ul>
+
+        <div class="photo-row">
+            <img src="images/suboregi.jpg">
+            <img src="images/kolboregi.jpg">
+            <img src="images/cıgborek.jpg">
+            <img src="images/pacanga.jpg">
+            <img src="images/gulborek.jpg">
+        </div>
+
+
+        <h2>Turkish Traditional Hemsin Simit</h2>
+        <img src="images/simit.jpeg" width="20%" style="float:right;margin:5px;">
+        <p>Step into the world of Turkish culinary heritage with Hemsin Simit, a beloved and timeless classic that holds
+            a special place in the hearts of Turkish people. This traditional Turkish bakery product, often referred to
+            as the Turkish bagel, is more than just a snack—it's a symbol of culture, community, and craftsmanship.</p>
+        <h3>In Turkish Cuisine</h3>
+        <p>In the vibrant tapestry of Turkish cuisine, Hemsin Simit is a star player. Its unique taste and chewy texture
+            make it a versatile and cherished treat. Here's how it features in Turkish culinary traditions:</p>
+        <br>
+        <img src="images/simit2.jpg" width="20%" style="float:right;margin:5px;">
+        <h3>Street Vendor Delight</h3>
+        <p>Strolling through the bustling streets of Türkiye, you'll encounter street vendors peddling Hemsin Simit,
+            often presented on large trays or carried on their heads. It's a popular street food enjoyed by people of
+            all ages. The golden-brown, sesame-crusted exterior gives way to a soft, fluffy interior, making it a
+            delightful on-the-go snack.</p>
+
+        <br>
+
+        <h2>Lahmacun</h2>
+        <img src="images/lahmacun.jpeg" alt="Lahmacun" width="20%" style="float:left;margin:5px;">
+        <br>
+        <p>Lahmacun is a traditional Turkish dish with a history rooted in the Levant and Mesopotamia. Its name comes
+            from the Arabic term "lahm bi'ajin", meaning "meat with dough." The dish consists of a thin flatbread topped
+            with minced meat, vegetables, and spices, then baked until crispy.</p>
+        <p>Lahmacun is commonly served with lemon, fresh herbs, and sometimes pickles, making it a popular street food
+            or appetizer in Türkiye and beyond. Its flavorful combination has made it a beloved part of Turkish cuisine.
+        </p>
+        <br>
+        <br>
+        <img src="images/pide.jpeg" alt="Pide" width="20%" style="float:right;margin:5px;">
+        <h2>Pide</h2>
+        <p>Pide is a Turkish dish similar to pizza, made with soft dough topped with ingredients like minced meat,
+            cheese, or spinach, and baked until crispy. It has roots in Anatolian cuisine and became popular during the
+            Seljuk and Ottoman periods.</p>
+        <p>Pide is enjoyed in various regional variations across Türkiye, with each area offering its own unique twist
+            on the toppings. Some popular versions include "kiymali pide" (minced meat), "kasarli pide" (cheese), and
+            "yumurtali pide" (egg). It's often served as a main meal, accompanied by a side of fresh salad, yogurt, or a
+            glass of traditional Turkish tea. The combination of soft dough and flavorful toppings makes pide a beloved
+            comfort food enjoyed by many.</p>
+
+        <h2>Mantı</h2>
+        <img src="images/mantı.jpeg" alt="Mantı" width="30%" style="float:left;margin:5px;">
+        <br>
+        <p>Mantı is a traditional Turkish dish made of small dumplings filled with minced meat, usually beef or lamb,
+            and seasoned with spices. The dough is rolled thin, cut into squares, filled with meat, and then boiled or
+            steamed. It is typically served with garlic yogurt and melted butter or tomato sauce.</p>
+        <p>Originating from Central Asia, mantı was introduced by the Turks and spread across the region, evolving in
+            various ways. In Türkiye, it is especially popular in Kayseri, where it is made smaller and more delicate.
+            The dish is a symbol of family and tradition, often prepared and enjoyed together during special occasions.
+        </p>
+
+    </article>
+    <footer>Copyright &copy; Pelin Serbet</footer>
+
+    </div>
+
+</body>
+
+</html>
